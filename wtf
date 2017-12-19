@@ -1,0 +1,14 @@
+1. Get campaign stats from the NUVIAD API - sometimes return an error like
+    { error:
+       { name: 'syncError',
+         message: 'Something went wrong while mocking this request. Please try again in some time and contact support if the issue persists.' } }
+
+2. Update NUVIAD API NOT WORKING!!! WTF????? how to finish a task???
+    {
+        "error": {
+            "name": "mockRequestNotFoundError",
+            "message": "We were unable to find any matching requests for this method type and the mock path, '/campaigns/ceecf7e1-a24d-428b-b013-8526e848ce3d/update_bid', in your collection."
+        }
+    }
+
+3. How to calculate a new_bid ? Excuse me, but where I should get an old_bid value?? And, again, how to calc a new bid???
